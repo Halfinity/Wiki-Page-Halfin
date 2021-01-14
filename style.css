@@ -125,7 +125,6 @@ ul {
 nav ul li {
   font-size: 140%;
   display: inline-block;
-  float: left;
   padding: 15px;
   font-weight: 300;
   margin: 0px;
@@ -188,6 +187,7 @@ img {
 #banner-wrapper {
   max-width: 1280px;
   margin: 0 auto;
+  text-decoration: underline;
 }
 
 .about-intro {
