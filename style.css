@@ -2,9 +2,9 @@
   font-size: 70px;
   color: #ffffff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+  -moz-animation: glow 0.5s ease-in-out infinite alternate;
+  animation: glow 0.5s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
@@ -20,6 +20,11 @@
 
 h2 {
   text-align: center;
+  color: #2b6ee9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  bottom: 20px;
 }
 
 .navbar {
@@ -90,7 +95,7 @@ footer > span {
 body {
   background-color: #11031a;
   font-family: "Times New Roman", Times, serif;
-  color: #5a0aee;
+  color: #ee0a0a;
   font-weight: 300;
 }
 
@@ -126,12 +131,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #0d0676;
+  color: #760606;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #1900ff;
+  color: #2600ff;
 }
 
 h1 {
@@ -169,25 +174,6 @@ p {
   padding: 0 2px 0 2px;
 }
 
-.hover-a:hover {
-  background-color: #f90000;
-}
-
-#white {
-  background-color: white;
-  color: black;
-}
-
-#red {
-  background-color: red;
-  color: white;
-}
-
-#black {
-  background-color: black;
-  color: red;
-}
-
 span {
   text-transform: uppercase;
   padding: 0 2px 0 2px;
@@ -222,7 +208,7 @@ img {
 }
 
 #profile {
-  border: 3px solid #2b09e9;
+  border: 3px solid #e90909;
   border-radius: 50%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -238,7 +224,6 @@ img {
   filter: grayscale(0);
 }
 
-/*parallax sections */
 .parallax-1 {
   background-position: center;
   text-align: center;
@@ -276,94 +261,6 @@ img {
   transform: scale(1.015);
 }
 
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-  color: #fdfdfd;
-  font-size: 1em;
-}
-
-input:focus::-webkit-input-placeholder,
-textarea:focus::-webkit-input-placeholder {
-  color: #fdfdfd;
-}
-
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  color: #fdfdfd;
-  font-size: 1em;
-}
-
-input:focus::-moz-placeholder,
-textarea:focus::-moz-placeholder {
-  color: #fdfdfd;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #fdfdfd;
-  font-size: 1em;
-}
-
-input:focus::placeholder,
-textarea::focus:placeholder {
-  color: #fdfdfd;
-}
-
-input::-ms-placeholder,
-textarea::-ms-placeholder {
-  color: #fdfdfd;
-  font-size: 1em;
-}
-
-input:focus::-ms-placeholder,
-textarea:focus::-ms-placeholder {
-  color: #fdfdfd;
-}
-
-input:hover::-webkit-input-placeholder,
-textarea:hover::-webkit-input-placeholder {
-  color: #662eff;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-webkit-input-placeholder,
-textarea:hover:focus::-webkit-input-placeholder {
-  color: #432eff;
-}
-
-input:hover::-moz-placeholder,
-textarea:hover::-moz-placeholder {
-  color: #432eff;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-moz-placeholder,
-textarea:hover:focus::-moz-placeholder {
-  color: #432eff;
-}
-
-input:hover::placeholder,
-textarea:hover::placeholder {
-  color: #432eff;
-  font-size: 0.875em;
-}
-
-input:hover:focus::placeholder,
-textarea:hover:focus::placeholder {
-  color: #542eff;
-}
-
-input:hover::placeholder,
-textarea:hover::placeholder {
-  color: #3c2eff;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-ms-placeholder,
-textarea:hover::focus:-ms-placeholder {
-  color: #542eff;
-}
-
 #form {
   position: relative;
   width: 100%;
@@ -372,7 +269,7 @@ textarea:hover::focus:-ms-placeholder {
 
 input {
   font-family: "Open Sans";
-  color: #4d2eff;
+  color: #ffffff;
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 3px;
@@ -405,7 +302,7 @@ textarea {
   outline: none;
 
   font-family: "Times New Roman", Times, serif;
-  color: #4d2eff;
+  color: #fdfdfd;
   font-weight: 300;
   font-size: 16px;
   letter-spacing: 3px;
@@ -441,7 +338,7 @@ textarea {
 }
 
 #submit:hover {
-  color: #312eff;
+  color: #ff2e2e;
 }
 
 .social {
