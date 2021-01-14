@@ -225,21 +225,17 @@ img {
   filter: grayscale(0);
 }
 
-.parallax-1 {
-  background-position: center;
-  text-align: center;
-  margin: 50px auto 50px auto;
-  max-width: 1300px;
-  width: 100%;
-  border-radius: 10px 10px 10px 10px;
-  -webkit-box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 0px 40px 5px rgba(255, 255, 255, 0.3);
-}
-
 .parallax-inner {
   padding-top: 90px;
   padding-bottom: 225px;
+}
+
+iframe {
+  margin: auto;
+  width: 1000px;
+  border: 3px solid #ad2121;
+  padding: 10px;
+  display: block;
 }
 
 .fixer {
