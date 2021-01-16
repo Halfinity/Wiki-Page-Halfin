@@ -415,3 +415,75 @@ textarea {
     max-width: 85%;
   }
 }
+
+.social {
+  clear: both;
+  height: 50px;
+  text-align: center;
+}
+
+.social ul li {
+  display: inline-block;
+  margin: 20px 15px 0 15px;
+}
+
+.social ul li a {
+  text-decoration: none;
+  color: #ff2e2e;
+}
+
+.social ul li i:hover {
+  color: #e0dbdb;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul,
+  nav:active ul {
+    display: none;
+    z-index: 10000;
+    position: absolute;
+    padding: 20px 20px 20px 0px;
+    background: #191919;
+    right: 0.1px;
+    top: 94px;
+    text-align: center;
+  }
+  nav:hover ul {
+    display: block;
+  }
+  nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .one-third {
+    width: 100%;
+    margin: 5% 0%;
+  }
+
+  .one-half {
+    width: 100%;
+    margin: 5% 0%;
+  }
+
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  #form {
+    max-width: none;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    max-width: 85%;
+  }
+}
+
+.parallax-inner {
+  width: 100%;
+  height: auto;
+}
